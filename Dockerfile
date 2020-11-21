@@ -33,3 +33,12 @@ EXPOSE 7777
 WORKDIR /source
 
 VOLUME /source
+
+#CMD /ipmitool.sh \
+#	${IDRACIP} \
+#	${IDRACUSER} \
+#	${IDRACPASSWORD} \
+#	${TEMPTHRESHOLD} \
+#	${FANSPEEDMIN} \
+#	${FANSPEEDMAX} \
+#	${DELAY} || : && bash && tail -f /dev/null
